@@ -33,24 +33,21 @@ The **ETS model** outperformed both ARIMA and SARIMAX, with the lowest **RMSE** 
 
 To run this project, you need the following libraries:
 
-bash
 pip install pandas matplotlib seaborn statsmodels scikit-learn
 
 🏃‍♂️ Usage
 Clone the repository:
 
-bash
-Copy
+```
 git clone https://github.com/faizanasadkarim/electrcity-demand-prediction.git
+```
+
 Navigate to the project directory:
 
-bash
-Copy
+
 cd electrcity-demand-prediction
 Run the analysis:
 
-bash
-Copy
 python 13.py
 
 This will load the dataset, perform the necessary preprocessing, apply the forecasting models, and display the results.
